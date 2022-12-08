@@ -1,17 +1,15 @@
-import React from 'react'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
+import React from "react";
+import Footer from "../components/Footer";
+import Nav from "../components/Nav";
 
-
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
-
     <div>
-        <Header/>
-            {children}
-        <Footer/>
+      <Nav />
+      {children}
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;
